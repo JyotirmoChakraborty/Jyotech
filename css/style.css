@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background: url(https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) fixed no-repeat center;
+}
+
+.hover{
+  color: rgb(158, 104, 32);
+}
+.hover:hover{
+  color: #fff;
+  background-color: rgb(158, 104, 32);
+  transition: 1s;
+}
+
+.flex{
+  position: flex;
+  margin-top: 30%;
+  width: 100vw;
+  height: 39vh;
+}
+.Order{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border: .5px solid #fff;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 20px;
+    transition: .5s ease-out;
+    margin-top: 2.5%;
+    margin-left: 10%;
+}
+.Order:hover{
+   background-color: #fff;
+   cursor: pointer;
+   color: black;
+   border: none;
+}
+.Login{
+    color:#fff;
+    height: 100px;
+    position: relative;
+    width: 300px;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: 'Source Code Pro', monospace;
+    transition: .5s ease-out;
+    border: none;
+    border: 0.5px solid #fff;
+    margin-left: 2%;
+}
+.Login:hover{
+cursor: pointer;
+background: #cc8526;
+color: #fff;
+border: none;
+}
